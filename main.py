@@ -1,3 +1,9 @@
+pip install PyPDF2
+pip install langchain
+pip install torch
+pip install chromadb
+pip install transformers
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
